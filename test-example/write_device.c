@@ -63,7 +63,7 @@ int main(int argc, int *argv[])
 	ret = unlink(FILE_PATH);
 	if (ret < 0) {
 		printf("Delete file : %s failed\n", FILE_PATH);
-	}	
+	}
 	printf("\n Test end, delete file %s\n", FILE_PATH);
 #endif
 
