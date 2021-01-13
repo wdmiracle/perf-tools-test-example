@@ -15,6 +15,9 @@
 
 #define	DELETE_FILE	0
 
+/*
+ * Test for perf-tools
+*/
 int main(int argc, int *argv[])
 {
 	int fd = 0;
